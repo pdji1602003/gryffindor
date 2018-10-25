@@ -1,0 +1,1272 @@
+@media (min-width: 1200px) {
+  /** lg **/
+/* section 1 */
+img {
+	width: 100%;
+}
+html, body {
+	margin: 0;
+}
+.no-padding {
+	padding: 0;
+}
+/* section 2 */
+/*.height {
+	height: 700px;
+}*/
+.left-box {
+	width: 50%;
+	margin: auto;
+}
+/* 在image的外頭再以一盒子包覆，將該盒子寬度設置為父元素的50%，藉以改變image的大小。*/
+.left-box img {
+	margin: 170px auto;
+}
+
+.right-box {
+	width: 80%;
+	margin: 0 50px 0 10px; 
+	padding: 0;
+	position: relative;
+}
+h2 {
+	font-family: PingFangTC-Regular;
+	font-size: 250%;
+	color: #28278B;
+	letter-spacing: 0.33px;
+	text-align: justify;
+	line-height: 37px;
+	margin: 100px 0 0; 
+}
+span {
+	font-family: Arial Rounded MT Bold;
+	font-size: 110%;
+	font-weight: normal;
+	color: #28278B;
+	letter-spacing: 0.33px;
+	text-align: justify;
+	line-height: 37px;
+}
+p {
+	font-family: Songti TC;
+	font-size: 150%;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 0.36px;
+	text-align: justify;
+	line-height: 42px;
+	/*width: 100%;*/
+	padding: 20px 0;
+	position: relative;
+}
+ul {
+	padding-left: 50px;
+}
+li {
+	font-family: YuMin-Medium;
+	font-size: 200%;
+	color: #4D4444;
+	letter-spacing: 0.39px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	top: -10px;
+}
+.right-box .grey-box {
+	background-color: rgba(209,209,212,0.32);
+	width: 75%;
+	height: 55%;
+	position: absolute;
+	top: 120px;
+	left: 30px;
+}
+div .text {
+	font-family: Arial Rounded MT Bold;
+	font-size: 150%;
+	font-weight: normal;
+	color: #404D72;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	line-height: 20px;
+	padding: 0 0 5px 10px;
+	border-bottom: 3px #404D72 solid;
+	width: 25%;
+	position: absolute;
+	right: 0;
+	top: 480px;
+}
+/* section 3 */
+.outer-box-1 {
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /*background-image: -webkit-linear-gradient(219deg, rgba(78,100,159,0.93) 0%, rgba(49,63,104,0.89) 18%, #303D65 39%, #13182C 100%);
+    height: 450px;
+    width: 100%;*/
+}
+.no-margin {
+	margin: 0;
+}
+.inner-left-box-1 {
+	width: 85%;
+	float: right;
+	margin-top:100px;
+	margin-bottom: 50px;
+
+}
+.inner-right-box-1 {
+	background: white;
+	width: 90%;
+	height: 100%;
+	padding: 20px;
+	position: relative;
+	top: 285px;
+}
+/* 圓點 */
+.circle-1 {
+	width: 30px;
+	height: 30px;
+	background-color: #9C315F;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	border-radius: 15px;
+	position: relative;
+	top: 20px;
+	left: -5px;
+
+}
+/* 標題 */
+.inner-right-box-1 h3 {
+	font-family: PingFangTC-Regular;
+	font-size: 200%;
+	color: rgba(32,32,32,0.84);
+	letter-spacing: 1.09px;
+	text-align: justify;
+	position: relative;
+	z-index: 1;
+}
+/* 段落 */
+.inner-right-box-1 p {
+	font-family: YuMin-Medium;
+	font-size: 150%;
+	font-weight: normal;
+	color: rgba(32,32,32,0.84);
+	letter-spacing: 0.74px;
+	text-align: left;
+	line-height: 44px;
+}
+/* section-4 */
+.section-4 {
+	background: url('./img/noise_fill.jpg') no-repeat;
+	background-position: center;
+}
+.inner-left-box-2 {
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+	top: 260px;
+}
+/* 圓點 */
+.circle-2 {
+	background: #B63523;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    position: relative;
+    top: 60px;
+    left: -15px;
+
+}
+/* 標題 */
+.inner-left-box-2 h3 {
+	font-family: PingFangTC-Semibold;
+	font-size: 250%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.19px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	z-index: 1;
+}
+/* 段落 */
+.inner-left-box-2 p {
+	font-family: STSongti-TC-Bold;
+	font-size: 170%;
+	color: #fff;
+	letter-spacing: 0.89px;
+	text-align: justify;
+	padding-top: 0; 
+}
+.inner-right-box-2 img {
+	width: 60%;
+	height: 80%;
+	margin-bottom: 100px;
+	margin-top:100px;
+}
+/* section-5 */
+.section-5 {
+	background: url('./img/midnight_blue.png') no-repeat;
+	background-position: center;
+}
+.inner-left-box-3 {
+	width: 50%;
+	margin: 0 auto;
+}
+.img-rounded {
+	border-radius: 53px;
+}
+.inner-right-box-3 {
+	position: relative;
+	top: -3px;
+}
+.circle-3 {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background: #9C27B0;
+	position: relative;
+	top: 110px;
+	left: 300px;
+}
+.inner-right-box-3 h3 {
+	font-family: PingFangTC-Semibold;
+	font-size: 250%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.19px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	z-index: 1;
+}
+.inner-right-box-3 p {
+	font-family: STSongti-TC-Bold;
+	font-size: 170%;
+	color: #FFFFFF;
+	letter-spacing: 0.89px;
+	text-align: justify;
+	line-height: 40px;
+	padding-top: 0;
+}
+/* section-6 */
+.inner-box-4 {
+	width: 70%;
+	padding-left: 270px;
+	position: relative;
+	padding-bottom: 50px;
+
+}
+.circle-4 {
+	width: 124px;
+	height: 124px;
+	border-radius: 62px;
+	background: #496DB2;
+	position: relative;
+	top: 120px;
+	left: -50px;
+}
+.inner-box-4 h3 {
+	font-family: SFProText-Heavy;
+	font-size: 250%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.58px;
+	text-align: justify;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 1;
+}
+.inner-box-4 p {
+	font-family: YuMin-Demibold;
+	font-size: 200%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.89px;
+	text-align: justify;
+	line-height: 45px;
+}
+.footer {
+	background: #101C33;	
+}
+.footer-left {
+	margin-bottom: 0;
+}
+.footer a, .footer span {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-family: AvenirNext-DemiBold;
+	font-size: 100%;
+	color: white;
+	letter-spacing: 0;
+	text-align: justify;
+	margin-bottom: 0;
+	padding-left: 20px;
+
+}
+.footer .footer-right {
+	float: right!important;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 20px;
+	margin-bottom: 0;
+	font-family: AvenirNext-DemiBold;
+	font-size: 140%;
+	color: white;
+	letter-spacing: 0;
+	position: relative;
+	top: 40px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /** md **/
+img {
+	width: 100%;
+}
+html, body {
+	margin: 0;
+}
+.no-padding {
+	padding: 0;
+}
+/* section 2 */
+/*.height {
+	height: 700px;
+}*/
+.left-box {
+	width: 50%;
+	margin: auto;
+}
+/* 在image的外頭再以一盒子包覆，將該盒子寬度設置為父元素的50%，藉以改變image的大小。*/
+.left-box img {
+	margin: 170px auto;
+}
+
+.right-box {
+	width: 90%;
+	margin: 0 50px 0 10px; 
+	padding: 0;
+	position: relative;
+	top: -30px;
+}
+h2 {
+	font-family: PingFangTC-Regular;
+	font-size: 250%;
+	color: #28278B;
+	letter-spacing: 0.33px;
+	text-align: justify;
+	line-height: 37px;
+	margin: 100px 0 0; 
+}
+span {
+	font-family: Arial Rounded MT Bold;
+	font-size: 110%;
+	font-weight: normal;
+	color: #28278B;
+	letter-spacing: 0.33px;
+	text-align: justify;
+	line-height: 37px;
+}
+p {
+	font-family: Songti TC;
+	font-size: 150%;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 0.36px;
+	text-align: justify;
+	line-height: 42px;
+	/*width: 100%;*/
+	padding: 20px 0;
+	position: relative;
+}
+ul {
+	padding-left: 50px;
+}
+li {
+	font-family: YuMin-Medium;
+	font-size: 150%;
+	color: #4D4444;
+	letter-spacing: 0.39px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	top: -40px;
+}
+.right-box .grey-box {
+	background-color: rgba(209,209,212,0.32);
+	width: 75%;
+	height: 55%;
+	position: absolute;
+	top: 120px;
+	left: 30px;
+}
+div .text {
+	font-family: Arial Rounded MT Bold;
+	font-size: 150%;
+	font-weight: normal;
+	color: #404D72;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	line-height: 20px;
+	padding: 0 0 5px 10px;
+	border-bottom: 3px #404D72 solid;
+	width: 25%;
+	position: absolute;
+	right: 0;
+	top: 450px;
+}
+/* section 3 */
+.outer-box-1 {
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /*background-image: -webkit-linear-gradient(219deg, rgba(78,100,159,0.93) 0%, rgba(49,63,104,0.89) 18%, #303D65 39%, #13182C 100%);
+    height: 450px;
+    width: 100%;*/
+}
+.no-margin {
+	margin: 0;
+}
+.inner-left-box-1 {
+	width: 85%;
+	float: right;
+	margin-top:100px;
+	margin-bottom: 50px;
+
+}
+.inner-right-box-1 {
+	background: white;
+	width: 90%;
+	height: 100%;
+	padding: 20px;
+	position: relative;
+	top: 150px;
+}
+/* 圓點 */
+.circle-1 {
+	width: 30px;
+	height: 30px;
+	background-color: #9C315F;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	border-radius: 15px;
+	position: relative;
+	top: 20px;
+	left: -5px;
+
+}
+/* 標題 */
+.inner-right-box-1 h3 {
+	font-family: PingFangTC-Regular;
+	font-size: 170%;
+	color: rgba(32,32,32,0.84);
+	letter-spacing: 1.09px;
+	text-align: justify;
+	position: relative;
+	z-index: 1;
+}
+/* 段落 */
+.inner-right-box-1 p {
+	font-family: YuMin-Medium;
+	font-size: 150%;
+	font-weight: normal;
+	color: rgba(32,32,32,0.84);
+	letter-spacing: 0.74px;
+	text-align: left;
+	line-height: 40px;
+}
+/* section-4 */
+.section-4 {
+	background: url('./img/noise_fill.jpg') no-repeat;
+	background-position: center;
+}
+.inner-left-box-2 {
+	width: 65%;
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+}
+/* 圓點 */
+.circle-2 {
+	background: #B63523;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    position: relative;
+    top: 60px;
+    left: -15px;
+
+}
+/* 標題 */
+.inner-left-box-2 h3 {
+	font-family: PingFangTC-Semibold;
+	font-size: 250%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.19px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	z-index: 1;
+}
+/* 段落 */
+.inner-left-box-2 p {
+	font-family: STSongti-TC-Bold;
+	font-size: 170%;
+	color: #fff;
+	letter-spacing: 0.89px;
+	text-align: justify;
+	padding-top: 0; 
+}
+.inner-right-box-2 img {
+	width: 60%;
+	height: 80%;
+	margin-bottom: 100px;
+	margin-top:100px;
+}
+/* section-5 */
+.section-5 {
+	background: url('./img/midnight_blue.png') no-repeat;
+	background-position: center;
+}
+.inner-left-box-3 {
+	width: 60%;
+	margin: 0 auto;
+}
+.img-rounded {
+	border-radius: 35px;
+}
+.inner-right-box-3 {
+	position: relative;
+	top: 0px;
+}
+.circle-3 {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background: #9C27B0;
+	position: relative;
+	top: 110px;
+	left: 270px;
+}
+.inner-right-box-3 h3 {
+	font-family: PingFangTC-Semibold;
+	font-size: 220%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.19px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	z-index: 1;
+}
+.inner-right-box-3 p {
+	font-family: STSongti-TC-Bold;
+	font-size: 150%;
+	color: #FFFFFF;
+	letter-spacing: 0.89px;
+	text-align: justify;
+	line-height: 40px;
+	padding-top: 0;
+}
+/* section-6 */
+.inner-box-4 {
+	/*width: 60%;*/
+	padding-left: 160px;
+	position: relative;
+	padding-bottom: 50px;
+
+}
+.circle-4 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: #496DB2;
+	position: relative;
+	top: 80px;
+	left: -20px;
+}
+.inner-box-4 h3 {
+	font-family: SFProText-Heavy;
+	font-size: 250%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.58px;
+	text-align: justify;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 1;
+}
+.inner-box-4 p {
+	font-family: YuMin-Demibold;
+	font-size: 180%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.89px;
+	text-align: justify;
+	line-height: 45px;
+}
+.footer {
+	background: #101C33;	
+}
+.footer-left {
+	margin-bottom: 0;
+}
+.footer a, .footer span {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-family: AvenirNext-DemiBold;
+	font-size: 80%;
+	color: white;
+	letter-spacing: 0;
+	text-align: justify;
+	margin-bottom: 0;
+	padding-left: 20px;
+
+}
+.footer .footer-right {
+	float: right!important;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 20px;
+	margin-bottom: 0;
+	font-family: AvenirNext-DemiBold;
+	font-size: 120%;
+	color: white;
+	letter-spacing: 0;
+	position: relative;
+	top: 40px;
+}  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+ /** sm **/
+
+img {
+	width: 100%;
+}
+html, body {
+	margin: 0;
+}
+.no-padding {
+	padding: 0;
+}
+.position {
+	position: relative;
+}
+/* section 2 */
+/*.height {
+	height: 700px;
+}*/
+.left-box {
+	width: 50%;
+	margin: auto;
+}
+/* 在image的外頭再以一盒子包覆，將該盒子寬度設置為父元素的50%，藉以改變image的大小。*/
+.left-box img {
+	margin: 170px auto;
+}
+
+.right-box {
+	width: 60%;
+	margin: 0 100px 0 160px; 
+	padding: 0;
+	position: relative;
+	top: -60px;
+}
+h2 {
+	font-family: PingFangTC-Regular;
+	font-size: 250%;
+	color: #28278B;
+	letter-spacing: 0.33px;
+	text-align: justify;
+	line-height: 37px;
+	margin: 100px 0 0; 
+}
+span {
+	font-family: Arial Rounded MT Bold;
+	font-size: 110%;
+	font-weight: normal;
+	color: #28278B;
+	letter-spacing: 0.33px;
+	text-align: justify;
+	line-height: 37px;
+}
+p {
+	font-family: Songti TC;
+	font-size: 150%;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 0.36px;
+	text-align: justify;
+	line-height: 42px;
+	/*width: 100%;*/
+	padding: 20px 0;
+	position: relative;
+}
+ul {
+	padding-left: 50px;
+}
+li {
+	font-family: YuMin-Medium;
+	font-size: 150%;
+	color: #4D4444;
+	letter-spacing: 0.39px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	top: -40px;
+}
+.right-box .grey-box {
+	background-color: rgba(209,209,212,0.32);
+	width: 75%;
+	height: 55%;
+	position: absolute;
+	top: 120px;
+	left: 30px;
+}
+div .text {
+	font-family: Arial Rounded MT Bold;
+	font-size: 150%;
+	font-weight: normal;
+	color: #404D72;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	line-height: 20px;
+	padding: 0 0 5px 10px;
+	border-bottom: 3px #404D72 solid;
+	width: 25%;
+	position: absolute;
+	right: 0;
+	top: 400px;
+}
+/* section 3 */
+.outer-box-1 {
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /*background-image: -webkit-linear-gradient(219deg, rgba(78,100,159,0.93) 0%, rgba(49,63,104,0.89) 18%, #303D65 39%, #13182C 100%);
+    height: 450px;
+    width: 100%;*/
+}
+.no-margin {
+	margin: 0;
+}
+.inner-left-box-1 {
+	width: 85%;
+	/*float: right;*/
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+}
+.inner-right-box-1 {
+	/*background: white;*/
+	width: 60%;
+	padding: 40px;
+	margin: 0 auto;
+}
+/* 圓點 */
+.circle-1 {
+	width: 30px;
+	height: 30px;
+	background-color: #9C315F;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	border-radius: 15px;
+	position: relative;
+	top: 20px;
+	left: -5px;
+
+}
+/* 標題 */
+.inner-right-box-1 h3 {
+	font-family: PingFangTC-Regular;
+	font-size: 200%;
+	color: rgba(32,32,32,0.84);
+	letter-spacing: 1.09px;
+	text-align: justify;
+	position: relative;
+	z-index: 1;
+}
+/* 段落 */
+.inner-right-box-1 p {
+	font-family: YuMin-Medium;
+	font-size: 200%;
+	font-weight: normal;
+	color: rgba(32,32,32,0.84);
+	letter-spacing: 0.74px;
+	text-align: left;
+	line-height: 40px;
+}
+/* section-4 */
+.section-4 {
+	background: url('./img/noise_fill.jpg') repeat;
+	background-position: center;
+}
+.inner-left-box-2 {
+	width: 50%;
+	margin: 0 auto;
+}
+/* 圓點 */
+.circle-2 {
+	background: #B63523;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    position: relative;
+    top: 60px;
+    left: -15px;
+
+}
+/* 標題 */
+.inner-left-box-2 h3 {
+	font-family: PingFangTC-Semibold;
+	font-size: 250%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.19px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	z-index: 1;
+}
+/* 段落 */
+.inner-left-box-2 p {
+	font-family: STSongti-TC-Bold;
+	font-size: 170%;
+	color: black;
+	letter-spacing: 0.89px;
+	text-align: justify;
+	padding-top: 0; 
+}
+.inner-right-box-2 {
+	margin: 0 auto;
+	width: 40%;
+	padding-bottom: 60px;
+
+}
+/*.inner-right-box-2 img {
+	width: 60%;
+	height: 80%;
+}*/
+/* section-5 */
+.section-5 {
+	background: url('./img/midnight_blue.png') no-repeat;
+	background-position: center;
+}
+.inner-left-box-3 {
+	width: 40%;
+	margin: 0 auto;
+}
+.img-rounded {
+	border-radius: 50px;
+}
+.inner-right-box-3 {
+	width: 50%;
+	margin: 0 auto;
+
+}
+.circle-3 {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background: #9C27B0;
+	position: relative;
+	top: 110px;
+	left: 270px;
+}
+.inner-right-box-3 h3 {
+	font-family: PingFangTC-Semibold;
+	font-size: 220%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.19px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	z-index: 1;
+}
+.inner-right-box-3 p {
+	font-family: STSongti-TC-Bold;
+	font-size: 150%;
+	color: black;
+	letter-spacing: 0.89px;
+	text-align: justify;
+	line-height: 40px;
+	padding-top: 0;
+}
+/* section-6 */
+.inner-box-4 {
+	width: 50%;
+	margin: 0 auto 50px;
+
+}
+.circle-4 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: #496DB2;
+	position: relative;
+	top: 80px;
+	left: -20px;
+}
+.inner-box-4 h3 {
+	font-family: SFProText-Heavy;
+	font-size: 250%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.58px;
+	text-align: justify;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 1;
+}
+.inner-box-4 p {
+	font-family: YuMin-Demibold;
+	font-size: 150%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.89px;
+	text-align: justify;
+	line-height: 45px;
+}
+.footer {
+	background: #101C33;	
+}
+.footer-left {
+	margin-bottom: 0;
+}
+.footer a, .footer span {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-family: AvenirNext-DemiBold;
+	font-size: 80%;
+	color: white;
+	letter-spacing: 0;
+	text-align: justify;
+	margin-bottom: 0;
+	padding-left: 20px;
+
+}
+.footer .footer-right {
+	float: right!important;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 20px;
+	margin-bottom: 0;
+	font-family: AvenirNext-DemiBold;
+	font-size: 120%;
+	color: white;
+	letter-spacing: 0;
+	position: relative;
+	top: 40px;
+}  
+}
+@media (max-width: 767px) {
+  /** xs **/
+img {
+	width: 100%;
+}
+html, body {
+	margin: 0;
+}
+.no-padding {
+	padding: 0;
+}
+.position {
+	position: relative;
+}
+/* section 2 */
+/*.height {
+	height: 700px;
+}*/
+.left-box {
+	width: 50%;
+	margin: auto;
+}
+/* 在image的外頭再以一盒子包覆，將該盒子寬度設置為父元素的50%，藉以改變image的大小。*/
+.left-box img {
+	margin: 170px auto;
+}
+
+.right-box {
+	width: 60%;
+	margin: 0 auto;
+	padding: 0;
+}
+h2 {
+	font-family: PingFangTC-Regular;
+	font-size: 250%;
+	color: #28278B;
+	letter-spacing: 0.33px;
+	text-align: justify;
+	line-height: 37px;
+	margin: 100px 0 0; 
+}
+span {
+	font-family: Arial Rounded MT Bold;
+	font-size: 110%;
+	font-weight: normal;
+	color: #28278B;
+	letter-spacing: 0.33px;
+	text-align: justify;
+	line-height: 37px;
+}
+p {
+	font-family: Songti TC;
+	font-size: 150%;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 0.36px;
+	text-align: justify;
+	line-height: 42px;
+	/*width: 100%;*/
+	padding: 20px 0;
+	position: relative;
+}
+ul {
+	padding-left: 50px;
+}
+li {
+	font-family: YuMin-Medium;
+	font-size: 150%;
+	color: #4D4444;
+	letter-spacing: 0.39px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	top: -40px;
+}
+.right-box .grey-box {
+	background-color: rgba(209,209,212,0.32);
+	width: 70%;
+	height: 50%;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+div .text {
+	font-family: Arial Rounded MT Bold;
+	font-size: 150%;
+	font-weight: normal;
+	color: #404D72;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	line-height: 20px;
+	padding: 0 0 5px 10px;
+	border-bottom: 3px #404D72 solid;
+	width: 25%;
+	position: absolute;
+	right: 0;
+	top: 90%;
+}
+/* section 3 */
+.outer-box-1 {
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /*background-image: -webkit-linear-gradient(219deg, rgba(78,100,159,0.93) 0%, rgba(49,63,104,0.89) 18%, #303D65 39%, #13182C 100%);
+    height: 450px;
+    width: 100%;*/
+}
+.no-margin {
+	margin: 0;
+}
+.inner-left-box-1 {
+	width: 85%;
+	/*float: right;*/
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+}
+.inner-right-box-1 {
+	/*background: white;*/
+	width: 60%;
+	padding: 40px;
+	margin: 0 auto;
+}
+/* 圓點 */
+.circle-1 {
+	width: 30px;
+	height: 30px;
+	background-color: #9C315F;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	border-radius: 15px;
+	position: relative;
+	top: 20px;
+	left: -5px;
+
+}
+/* 標題 */
+.inner-right-box-1 h3 {
+	font-family: PingFangTC-Regular;
+	font-size: 200%;
+	color: rgba(32,32,32,0.84);
+	letter-spacing: 1.09px;
+	text-align: justify;
+	position: relative;
+	z-index: 1;
+}
+/* 段落 */
+.inner-right-box-1 p {
+	font-family: YuMin-Medium;
+	font-size: 200%;
+	font-weight: normal;
+	color: rgba(32,32,32,0.84);
+	letter-spacing: 0.74px;
+	text-align: left;
+	line-height: 40px;
+}
+/* section-4 */
+.section-4 {
+	background: url('./img/noise_fill.jpg') repeat;
+	background-position: center;
+}
+.inner-left-box-2 {
+	width: 50%;
+	margin: 0 auto;
+}
+/* 圓點 */
+.circle-2 {
+	background: #B63523;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    position: relative;
+    top: 60px;
+    left: -15px;
+
+}
+/* 標題 */
+.inner-left-box-2 h3 {
+	font-family: PingFangTC-Semibold;
+	font-size: 250%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.19px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	z-index: 1;
+}
+/* 段落 */
+.inner-left-box-2 p {
+	font-family: STSongti-TC-Bold;
+	font-size: 170%;
+	color: black;
+	letter-spacing: 0.89px;
+	text-align: justify;
+	padding-top: 0; 
+}
+.inner-right-box-2 {
+	margin: 0 auto;
+	width: 40%;
+	padding-bottom: 60px;
+
+}
+/*.inner-right-box-2 img {
+	width: 60%;
+	height: 80%;
+}*/
+/* section-5 */
+.section-5 {
+	background: url('./img/midnight_blue.png') no-repeat;
+	background-position: center;
+}
+.inner-left-box-3 {
+	width: 40%;
+	margin: 0 auto;
+}
+.img-rounded {
+	border-radius: 50px;
+}
+.inner-right-box-3 {
+	width: 50%;
+	margin: 0 auto;
+
+}
+.circle-3 {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background: #9C27B0;
+	position: relative;
+	top: 110px;
+	left: 270px;
+}
+.inner-right-box-3 h3 {
+	font-family: PingFangTC-Semibold;
+	font-size: 220%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.19px;
+	text-align: justify;
+	line-height: 1.5;
+	position: relative;
+	z-index: 1;
+}
+.inner-right-box-3 p {
+	font-family: STSongti-TC-Bold;
+	font-size: 150%;
+	color: black;
+	letter-spacing: 0.89px;
+	text-align: justify;
+	line-height: 40px;
+	padding-top: 0;
+}
+/* section-6 */
+.inner-box-4 {
+	width: 50%;
+	margin: 0 auto 50px;
+
+}
+.circle-4 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: #496DB2;
+	position: relative;
+	top: 80px;
+	left: -20px;
+}
+.inner-box-4 h3 {
+	font-family: SFProText-Heavy;
+	font-size: 250%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.58px;
+	text-align: justify;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 1;
+}
+.inner-box-4 p {
+	font-family: YuMin-Demibold;
+	font-size: 150%;
+	color: rgba(0,0,0,0.84);
+	letter-spacing: 1.89px;
+	text-align: justify;
+	line-height: 45px;
+}
+.footer {
+	background: #101C33;	
+}
+.footer-left {
+	margin-bottom: 0;
+}
+.footer a, .footer span {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-family: AvenirNext-DemiBold;
+	font-size: 70%;
+	color: white;
+	letter-spacing: 0;
+	text-align: justify;
+	margin-bottom: 0;
+	padding-left: 20px;
+
+}
+.footer .footer-right {
+	float: right!important;
+	padding-top: 20px;
+	padding-right: 20px;
+	margin-bottom: 0;
+	font-family: AvenirNext-DemiBold;
+	font-size: 100%;
+	color: white;
+	letter-spacing: 0;
+} 
+}  
