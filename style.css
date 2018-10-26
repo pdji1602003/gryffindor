@@ -159,6 +159,7 @@ div .text {
 .section-4 {
 	background: url('./img/noise_fill.jpg') no-repeat;
 	background-position: center;
+	background-size: 100%;
 }
 .inner-left-box-2 {
 	width: 60%;
@@ -209,6 +210,7 @@ div .text {
 .section-5 {
 	background: url('./img/midnight_blue.png') no-repeat;
 	background-position: center;
+	background-size: 100%;
 }
 .inner-left-box-3 {
 	width: 50%;
@@ -1185,9 +1187,9 @@ div .text {
 	height: 50px;
 	border-radius: 25px;
 	background: #9C27B0;
-	position: relative;
-	top: 110px;
-	left: 270px;
+	position: absolute;
+	top: 10%;
+	left: 90%;
 }
 .inner-right-box-3 h3 {
 	font-family: PingFangTC-Semibold;
